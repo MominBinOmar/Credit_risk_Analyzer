@@ -1,0 +1,17 @@
+body, .main { background-color: #eaf6ff !important; color: #111 !important; }
+.stButton>button { background-color: #e63946; color: white; border-radius: 8px; font-weight: bold; }
+.stButton>button:hover { background-color: #f77f00; }
+.stTextInput>div>div>input, .stNumberInput>div>div>input, .stSelectbox>div>div>select {
+    border-radius: 5px; color: #111 !important; background: #fffbe6 !important;
+}
+.css-1d391kg, .stDataFrame, .stMarkdown, .stAlert, .stTable {
+    background-color: #fffbe6 !important; color: #111 !important; border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(230,57,70,0.10);
+    border: 1.5px solid #e63946;
+}
+.stDataFrame table { color: #111 !important; background: #fffbe6 !important; }
+th, td { color: #111 !important; }
+.mario-header { font-family: 'Comic Sans MS', 'Comic Sans', cursive; font-size: 2.2rem; color: #e63946; text-shadow: 2px 2px #ffe066; }
+.mario-section { font-family: 'Comic Sans MS', 'Comic Sans', cursive; font-size: 1.3rem; color: #111; font-weight: bold; }
+/* Force all notification/info/success/warning/error box text to black */
+.stAlert, .stAlert-success, .stAlert-warning, .stAlert-error, .stAlert-info, .stNotificationContent, .stNotificationContent * { color: #000 !important; } 
